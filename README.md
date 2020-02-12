@@ -2,9 +2,13 @@
  
 Final project will be combo of things we have been doing in Tri2. A large part of this is building/refining off of work we have done in AP test Repo.
 Project is worth 50 points,
+
 A. Design, Alpha Feb 17 (10 points).
+
 B. Revision 1.0 Feb 24 (10 points)
+
 C. Revision 2.0 End of my Final Day (30 points)
+
 This should be done in a group, to reduce work load on individual. I will be evaluating coding participation by Git quantity & quality of commits.
 
 
