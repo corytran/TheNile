@@ -2,39 +2,103 @@ package view_control;
 import control_ap_exam.APexam;
 import java.awt.*;
 import java.awt.color.*;
-import javax.swing.*;
+import javax.swing.*;
+import javax.swing.border.Border;
 
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
+import java.util.*;
 public class AmazonGUI extends MainMenu{
 	public AmazonGUI() {
-		getContentPane().setBackground(new Color(255, 255, 255));
+		getContentPane().setBackground(new Color(45,45,45));
 		getContentPane().setLayout(null);
 		
-		TextField textField = new TextField();
-		textField.setText("Search the Nile");
-		textField.setFont(new Font("SansSerif", Font.PLAIN, 12));
-		textField.setForeground(new Color(255, 255, 255));
-		textField.setBackground(new Color(25, 25, 112));
-		textField.setBounds(40, 10, 354, 23);
-		getContentPane().add(textField);
-		
 		Scrollbar scrollbar = new Scrollbar();
-		scrollbar.setBounds(417, 0, 17, 239);
+		scrollbar.setBounds(755, 10, 17, 574);
 		getContentPane().add(scrollbar);
 		
 		Panel panel = new Panel();
-		panel.setBackground(new Color(0, 100, 0));
-		panel.setBounds(10, 0, 401, 49);
+		panel.setBounds(10, 0, 739, 76);
+		panel.setBackground(new Color(35,57,92));
 		getContentPane().add(panel);
+		panel.setLayout(null);
 		
-		JMenuItem mntmNewMenuItem = new JMenuItem("All3qw");
-		mntmNewMenuItem.setFont(new Font("Segoe UI", Font.PLAIN, 5));
-		mntmNewMenuItem.setBounds(127, 108, 74, 26);
-		getContentPane().add(mntmNewMenuItem);
-		mntmNewMenuItem.setHorizontalAlignment(SwingConstants.CENTER);
-		mntmNewMenuItem.setForeground(new Color(255, 255, 255));
-		mntmNewMenuItem.setOpaque(true);
-		mntmNewMenuItem.setBackground(new Color(0, 0, 128));
-		mntmNewMenuItem.setOpaque(true);
-		mntmNewMenuItem.setOpaque(true);
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setForeground(Color.WHITE);
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				System.out.println("hello");
+			}
+		});
+		btnNewButton.setBackground(new Color(35,57,92));
+		btnNewButton.setOpaque(true);
+		btnNewButton.setBorderPainted(false);
+		btnNewButton.setBounds(10, 11, 39, 23);
+		panel.add(btnNewButton);
+		
+		JButton btnClothing = new JButton("Clothing\r\n");
+		btnClothing.setOpaque(true);
+		btnClothing.setForeground(Color.WHITE);
+		btnClothing.setBorderPainted(false);
+		btnClothing.setBackground(new Color(35,57,92));
+		btnClothing.setBounds(52, 42, 73, 23);
+		panel.add(btnClothing);
+		
+		JButton btnGames = new JButton("Games");
+		btnGames.setOpaque(true);
+		btnGames.setForeground(Color.WHITE);
+		btnGames.setBorderPainted(false);
+		btnGames.setBackground(new Color(35,57,92));
+		btnGames.setBounds(206, 42, 73, 23);
+		panel.add(btnGames);
+		
+		JButton btnComputers = new JButton("Computers");
+		btnComputers.setOpaque(true);
+		btnComputers.setForeground(Color.WHITE);
+		btnComputers.setBorderPainted(false);
+		btnComputers.setBackground(new Color(35,57,92));
+		btnComputers.setBounds(289, 42, 85, 23);
+		panel.add(btnComputers);
+		
+		JButton btnTodaysDeals = new JButton("Today's Deals");
+		btnTodaysDeals.setOpaque(true);
+		btnTodaysDeals.setForeground(Color.WHITE);
+		btnTodaysDeals.setBorderPainted(false);
+		btnTodaysDeals.setBackground(new Color(35,57,92));
+		btnTodaysDeals.setBounds(384, 42, 99, 23);
+		panel.add(btnTodaysDeals);
+		
+		JButton btnBooks = new JButton("Books");
+		btnBooks.setOpaque(true);
+		btnBooks.setForeground(Color.WHITE);
+		btnBooks.setBorderPainted(false);
+		btnBooks.setBackground(new Color(35,57,92));
+		btnBooks.setBounds(135, 42, 61, 23);
+		panel.add(btnBooks);
+		
+		JButton btnGiftCards = new JButton("Gift Cards");
+		btnGiftCards.setOpaque(true);
+		btnGiftCards.setForeground(Color.WHITE);
+		btnGiftCards.setBorderPainted(false);
+		btnGiftCards.setBackground(new Color(35, 57, 92));
+		btnGiftCards.setBounds(493, 42, 90, 23);
+		panel.add(btnGiftCards);
+		
+		JButton btnGo = new JButton("Go");
+		btnGo.setOpaque(true);
+		btnGo.setForeground(Color.WHITE);
+		btnGo.setBorderPainted(false);
+		btnGo.setBackground(new Color(147,79,1));
+		btnGo.setBounds(673, 11, 56, 23);
+		panel.add(btnGo);
+		
+		TextField textField = new TextField();
+		textField.setBounds(47, 11, 620, 23);
+		panel.add(textField);
+		textField.setText("Search the Nile");
+		textField.setFont(new Font("SansSerif", Font.PLAIN, 12));
+		textField.setForeground(new Color(255, 255, 255));
+		textField.setBackground(new Color(24, 26, 27));
+		
 	}
 }
