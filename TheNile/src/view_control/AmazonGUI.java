@@ -49,7 +49,7 @@ public class AmazonGUI extends MainMenu{
 		btnGames.setForeground(Color.WHITE);
 		btnGames.setBorderPainted(false);
 		btnGames.setBackground(new Color(35,57,92));
-		btnGames.setBounds(206, 42, 73, 23);
+		btnGames.setBounds(165, 42, 65, 23);
 		panel.add(btnGames);
 		
 		JButton btnComputers = new JButton("Computers");
@@ -57,7 +57,7 @@ public class AmazonGUI extends MainMenu{
 		btnComputers.setForeground(Color.WHITE);
 		btnComputers.setBorderPainted(false);
 		btnComputers.setBackground(new Color(35,57,92));
-		btnComputers.setBounds(289, 42, 85, 23);
+		btnComputers.setBounds(215, 42, 85, 23);
 		panel.add(btnComputers);
 		
 		JButton btnTodaysDeals = new JButton("Today's Deals");
@@ -65,7 +65,7 @@ public class AmazonGUI extends MainMenu{
 		btnTodaysDeals.setForeground(Color.WHITE);
 		btnTodaysDeals.setBorderPainted(false);
 		btnTodaysDeals.setBackground(new Color(35,57,92));
-		btnTodaysDeals.setBounds(384, 42, 99, 23);
+		btnTodaysDeals.setBounds(285, 42, 99, 23);
 		panel.add(btnTodaysDeals);
 		
 		JButton btnBooks = new JButton("Books");
@@ -73,7 +73,7 @@ public class AmazonGUI extends MainMenu{
 		btnBooks.setForeground(Color.WHITE);
 		btnBooks.setBorderPainted(false);
 		btnBooks.setBackground(new Color(35,57,92));
-		btnBooks.setBounds(135, 42, 61, 23);
+		btnBooks.setBounds(116, 42, 61, 23);
 		panel.add(btnBooks);
 		
 		JButton btnGiftCards = new JButton("Gift Cards");
@@ -81,7 +81,7 @@ public class AmazonGUI extends MainMenu{
 		btnGiftCards.setForeground(Color.WHITE);
 		btnGiftCards.setBorderPainted(false);
 		btnGiftCards.setBackground(new Color(35, 57, 92));
-		btnGiftCards.setBounds(493, 42, 90, 23);
+		btnGiftCards.setBounds(369, 42, 81, 23);
 		panel.add(btnGiftCards);
 		
 		JButton btnGo = new JButton("Go");
@@ -99,6 +99,38 @@ public class AmazonGUI extends MainMenu{
 		textField.setFont(new Font("SansSerif", Font.PLAIN, 12));
 		textField.setForeground(new Color(255, 255, 255));
 		textField.setBackground(new Color(24, 26, 27));
+		
+		JButton btnNileBuisness = new JButton("Nile Buisness");
+		btnNileBuisness.setOpaque(true);
+		btnNileBuisness.setForeground(Color.WHITE);
+		btnNileBuisness.setBorderPainted(false);
+		btnNileBuisness.setBackground(new Color(35, 57, 92));
+		btnNileBuisness.setBounds(434, 42, 99, 23);
+		panel.add(btnNileBuisness);
+		
+		JButton btnSell = new JButton("Sell");
+		btnSell.setOpaque(true);
+		btnSell.setForeground(Color.WHITE);
+		btnSell.setBorderPainted(false);
+		btnSell.setBackground(new Color(35, 57, 92));
+		btnSell.setBounds(518, 42, 56, 23);
+		panel.add(btnSell);
+		
+		JButton btnHelp = new JButton("Help\r\n");
+		btnHelp.setOpaque(true);
+		btnHelp.setForeground(Color.WHITE);
+		btnHelp.setBorderPainted(false);
+		btnHelp.setBackground(new Color(35, 57, 92));
+		btnHelp.setBounds(554, 42, 65, 23);
+		panel.add(btnHelp);
+		
+		JButton btnOrders = new JButton("Orders");
+		btnOrders.setOpaque(true);
+		btnOrders.setForeground(Color.WHITE);
+		btnOrders.setBorderPainted(false);
+		btnOrders.setBackground(new Color(35, 57, 92));
+		btnOrders.setBounds(599, 42, 73, 23);
+		panel.add(btnOrders);
 		
 	}
 }
