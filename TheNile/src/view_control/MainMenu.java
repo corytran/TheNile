@@ -127,6 +127,15 @@ public class MainMenu extends JFrame {
 		mnJig.add(mntmNewMenuItem);
 		mnJig.add(mntmProgrammingLanguages);
 		
+		JMenuItem mntmAmazonGUI = new JMenuItem("AmazonGUI");
+		mntmNewMenuItem.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				AmazonGUI frame = new AmazonGUI();
+				frame.setVisible(true);
+			}
+		});
+		mnJig.add(mntmNewMenuItem);
+		mnJig.add(mntmAmazonGUI);
 		
 	}
 	

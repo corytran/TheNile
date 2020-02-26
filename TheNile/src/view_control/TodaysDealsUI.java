@@ -8,8 +8,8 @@ import javax.swing.border.Border;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.util.*;
-public class AmazonGUI extends MainMenu{
-	public AmazonGUI() {
+public class TodaysDealsUI extends MainMenu{
+	public TodaysDealsUI() {
 		getContentPane().setBackground(new Color(45,45,45));
 		getContentPane().setLayout(null);
 		
