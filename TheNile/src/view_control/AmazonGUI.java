@@ -68,7 +68,7 @@ public class AmazonGUI extends MainMenu{
 		btnGames.setBounds(409, 51, 150, 27);
 		panel.add(btnGames);
 		
-		JButton btnComputers = new JButton("Computers");
+		JButton btnComputers = new JButton("Electronics");
 		btnComputers.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnComputers.setOpaque(true);
 		btnComputers.setForeground(Color.WHITE);

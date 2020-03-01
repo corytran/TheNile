@@ -65,7 +65,7 @@ public class TodaysDealsUI extends MainMenu{
 		btnGames.setBounds(409, 51, 150, 27);
 		panel.add(btnGames);
 		
-		JButton btnComputers = new JButton("Computers");
+		JButton btnComputers = new JButton("Electronics");
 		btnComputers.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnComputers.setOpaque(true);
 		btnComputers.setForeground(Color.WHITE);
@@ -157,7 +157,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_3);
 		
 		JTextPane txtpnRyey_4 = new JTextPane();
-		txtpnRyey_4.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4.setText("Milkman: A Novel Paperback \u2013 Anna Burns");
 		txtpnRyey_4.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4.setBackground(new Color(45, 45, 45));
@@ -165,6 +165,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4);
 		
 		JButton btnNewButton_4 = new JButton("");
+		btnNewButton_4.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Milkman.jpg")));
 		btnNewButton_4.setOpaque(false);
 		btnNewButton_4.setContentAreaFilled(false);
 		btnNewButton_4.setBorderPainted(false);
