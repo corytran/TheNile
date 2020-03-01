@@ -8,9 +8,9 @@ import java.awt.image.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.util.*;
-public class TodaysDealsUI extends MainMenu{
+public class BooksUI extends MainMenu{
 	private JTextField txtRandomTest;
-	public TodaysDealsUI() {
+	public BooksUI() {
 		setBounds(100, 100, 800, 660);
 		getContentPane().setBackground(new Color(45,45,45));
 		getContentPane().setLayout(null);
@@ -31,7 +31,7 @@ public class TodaysDealsUI extends MainMenu{
 		panel.add(btnTodaysDeals);
 		
 		JButton btnGo = new JButton("");
-		btnGo.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Mag_35.PNG")));
+		btnGo.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Mag_35.PNG")));
 		btnGo.setOpaque(true);
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
@@ -75,7 +75,7 @@ public class TodaysDealsUI extends MainMenu{
 		panel.add(btnComputers);
 		
 		JButton button_3 = new JButton("Cart");
-		button_3.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/CartIcon_35.png")));
+		button_3.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/CartIcon_35.png")));
 		button_3.setForeground(Color.WHITE);
 		button_3.setOpaque(false);
 		button_3.setContentAreaFilled(false);
@@ -84,13 +84,13 @@ public class TodaysDealsUI extends MainMenu{
 		panel.add(button_3);
 		
 		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/NileLogo_35.png")));
+		lblNewLabel.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/NileLogo_35.png")));
 		lblNewLabel.setBounds(0, 1, 76, 51);
 		panel.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("");
 		btnNewButton.setSelectedIcon(new ImageIcon("D:\\Downloads\\Motorbike.jpg"));
-		btnNewButton.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Motorbike.jpg")));
+		btnNewButton.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Motorbike.jpg")));
 		btnNewButton.setBounds(10, 93, 185, 185);
 		btnNewButton.setOpaque(false);
 		btnNewButton.setContentAreaFilled(false);
@@ -99,7 +99,7 @@ public class TodaysDealsUI extends MainMenu{
 		
 		JButton btnNewButton_1 = new JButton("");
 		btnNewButton_1.setIcon(new ImageIcon("D:\\Downloads\\RTX.jpg"));
-		btnNewButton_1.setSelectedIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/RTX.jpg")));
+		btnNewButton_1.setSelectedIcon(new ImageIcon(BooksUI.class.getResource("/view_control/RTX.jpg")));
 		btnNewButton_1.setOpaque(false);
 		btnNewButton_1.setContentAreaFilled(false);
 		btnNewButton_1.setBorderPainted(false);
@@ -107,8 +107,8 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("");
-		btnNewButton_2.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Invent.jpg")));
-		btnNewButton_2.setSelectedIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Invent.jpg")));
+		btnNewButton_2.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Invent.jpg")));
+		btnNewButton_2.setSelectedIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Invent.jpg")));
 		btnNewButton_2.setOpaque(false);
 		btnNewButton_2.setContentAreaFilled(false);
 		btnNewButton_2.setBorderPainted(false);
@@ -116,8 +116,8 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("");
-		btnNewButton_3.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
-		btnNewButton_3.setSelectedIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
+		btnNewButton_3.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
+		btnNewButton_3.setSelectedIcon(new ImageIcon(BooksUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
 		btnNewButton_3.setOpaque(false);
 		btnNewButton_3.setContentAreaFilled(false);
 		btnNewButton_3.setBorderPainted(false);
@@ -170,7 +170,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4);
 		
 		JButton btnNewButton_4 = new JButton("");
-		btnNewButton_4.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Milkman.jpg")));
+		btnNewButton_4.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Milkman.jpg")));
 		btnNewButton_4.setOpaque(false);
 		btnNewButton_4.setContentAreaFilled(false);
 		btnNewButton_4.setBorderPainted(false);
@@ -178,7 +178,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_4);
 		
 		JButton btnNewButton_4_1 = new JButton("");
-		btnNewButton_4_1.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Witcher.jpg")));
+		btnNewButton_4_1.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Witcher.jpg")));
 		btnNewButton_4_1.setOpaque(false);
 		btnNewButton_4_1.setContentAreaFilled(false);
 		btnNewButton_4_1.setBorderPainted(false);
@@ -195,7 +195,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_1);
 		
 		JButton btnNewButton_4_2 = new JButton("");
-		btnNewButton_4_2.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/FF_1_55.jpg")));
+		btnNewButton_4_2.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/FF_1_55.jpg")));
 		btnNewButton_4_2.setOpaque(false);
 		btnNewButton_4_2.setContentAreaFilled(false);
 		btnNewButton_4_2.setBorderPainted(false);
@@ -212,7 +212,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_2);
 		
 		JButton btnNewButton_4_3 = new JButton("");
-		btnNewButton_4_3.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/OSU_55.jpg")));
+		btnNewButton_4_3.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/OSU_55.jpg")));
 		btnNewButton_4_3.setOpaque(false);
 		btnNewButton_4_3.setContentAreaFilled(false);
 		btnNewButton_4_3.setBorderPainted(false);
