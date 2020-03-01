@@ -76,7 +76,6 @@ public class TodaysDealsUI extends MainMenu{
 		JButton button_3 = new JButton("Cart");
 		button_3.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/CartIcon_35.png")));
 		button_3.setForeground(Color.WHITE);
-		button_3.setOpaque(true);
 		button_3.setOpaque(false);
 		button_3.setContentAreaFilled(false);
 		button_3.setBorderPainted(false);
@@ -87,6 +86,34 @@ public class TodaysDealsUI extends MainMenu{
 		lblNewLabel.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/NileLogo_35.png")));
 		lblNewLabel.setBounds(0, 1, 76, 51);
 		panel.add(lblNewLabel);
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(10, 93, 185, 185);
+		btnNewButton.setOpaque(false);
+		btnNewButton.setContentAreaFilled(false);
+		btnNewButton.setBorderPainted(false);
+		getContentPane().add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.setOpaque(false);
+		btnNewButton_1.setContentAreaFilled(false);
+		btnNewButton_1.setBorderPainted(false);
+		btnNewButton_1.setBounds(205, 93, 185, 185);
+		getContentPane().add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("New button");
+		btnNewButton_2.setOpaque(false);
+		btnNewButton_2.setContentAreaFilled(false);
+		btnNewButton_2.setBorderPainted(false);
+		btnNewButton_2.setBounds(400, 93, 185, 185);
+		getContentPane().add(btnNewButton_2);
+		
+		JButton btnNewButton_3 = new JButton("New button");
+		btnNewButton_3.setOpaque(false);
+		btnNewButton_3.setContentAreaFilled(false);
+		btnNewButton_3.setBorderPainted(false);
+		btnNewButton_3.setBounds(595, 93, 185, 185);
+		getContentPane().add(btnNewButton_3);
 		
 		
 	}
