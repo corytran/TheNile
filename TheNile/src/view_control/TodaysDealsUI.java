@@ -35,7 +35,7 @@ public class TodaysDealsUI extends MainMenu{
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
 		btnGo.setBackground(new Color(147,79,1));
-		btnGo.setBounds(650, 10, 45, 32);
+		btnGo.setBounds(655, 10, 45, 32);
 		panel.add(btnGo);
 		
 		TextField textField = new TextField();
