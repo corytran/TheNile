@@ -88,7 +88,7 @@ public class TodaysDealsUI extends MainMenu{
 		lblNewLabel.setBounds(0, 1, 76, 51);
 		panel.add(lblNewLabel);
 		
-		JButton btnNewButton = new JButton("New button");
+		JButton btnNewButton = new JButton("");
 		btnNewButton.setSelectedIcon(new ImageIcon("D:\\Downloads\\Motorbike.jpg"));
 		btnNewButton.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Motorbike.jpg")));
 		btnNewButton.setBounds(10, 93, 185, 185);
@@ -97,21 +97,21 @@ public class TodaysDealsUI extends MainMenu{
 		btnNewButton.setBorderPainted(false);
 		getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("New button");
+		JButton btnNewButton_1 = new JButton("");
 		btnNewButton_1.setOpaque(false);
 		btnNewButton_1.setContentAreaFilled(false);
 		btnNewButton_1.setBorderPainted(false);
 		btnNewButton_1.setBounds(205, 93, 185, 185);
 		getContentPane().add(btnNewButton_1);
 		
-		JButton btnNewButton_2 = new JButton("New button");
+		JButton btnNewButton_2 = new JButton("");
 		btnNewButton_2.setOpaque(false);
 		btnNewButton_2.setContentAreaFilled(false);
 		btnNewButton_2.setBorderPainted(false);
 		btnNewButton_2.setBounds(400, 93, 185, 185);
 		getContentPane().add(btnNewButton_2);
 		
-		JButton btnNewButton_3 = new JButton("New button");
+		JButton btnNewButton_3 = new JButton("");
 		btnNewButton_3.setOpaque(false);
 		btnNewButton_3.setContentAreaFilled(false);
 		btnNewButton_3.setBorderPainted(false);
@@ -122,7 +122,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		txtpnRyey.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
 		txtpnRyey.setForeground(new Color(89,183,255));
-		txtpnRyey.setBounds(10, 285, 185, 100);
+		txtpnRyey.setBounds(10, 285, 185, 50);
 		txtpnRyey.setBackground(new Color(45,45,45));
 		getContentPane().add(txtpnRyey);
 		
@@ -131,7 +131,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_1.setText("ryey");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
-		txtpnRyey_1.setBounds(205, 285, 185, 100);
+		txtpnRyey_1.setBounds(205, 285, 185, 50);
 		getContentPane().add(txtpnRyey_1);
 		
 		JTextPane txtpnRyey_2 = new JTextPane();
@@ -139,7 +139,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_2.setText("ryey");
 		txtpnRyey_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_2.setBackground(new Color(45, 45, 45));
-		txtpnRyey_2.setBounds(400, 285, 185, 100);
+		txtpnRyey_2.setBounds(400, 285, 185, 50);
 		getContentPane().add(txtpnRyey_2);
 		
 		JTextPane txtpnRyey_3 = new JTextPane();
@@ -147,8 +147,68 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_3.setText("ryey");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
-		txtpnRyey_3.setBounds(595, 285, 185, 100);
+		txtpnRyey_3.setBounds(595, 285, 185, 50);
 		getContentPane().add(txtpnRyey_3);
+		
+		JTextPane txtpnRyey_4 = new JTextPane();
+		txtpnRyey_4.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		txtpnRyey_4.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4.setBounds(10, 538, 185, 50);
+		getContentPane().add(txtpnRyey_4);
+		
+		JButton btnNewButton_4 = new JButton("");
+		btnNewButton_4.setOpaque(false);
+		btnNewButton_4.setContentAreaFilled(false);
+		btnNewButton_4.setBorderPainted(false);
+		btnNewButton_4.setBounds(10, 346, 185, 185);
+		getContentPane().add(btnNewButton_4);
+		
+		JButton btnNewButton_4_1 = new JButton("");
+		btnNewButton_4_1.setOpaque(false);
+		btnNewButton_4_1.setContentAreaFilled(false);
+		btnNewButton_4_1.setBorderPainted(false);
+		btnNewButton_4_1.setBounds(205, 346, 185, 185);
+		getContentPane().add(btnNewButton_4_1);
+		
+		JTextPane txtpnRyey_4_1 = new JTextPane();
+		txtpnRyey_4_1.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_1.setBounds(205, 538, 185, 50);
+		getContentPane().add(txtpnRyey_4_1);
+		
+		JButton btnNewButton_4_2 = new JButton("");
+		btnNewButton_4_2.setOpaque(false);
+		btnNewButton_4_2.setContentAreaFilled(false);
+		btnNewButton_4_2.setBorderPainted(false);
+		btnNewButton_4_2.setBounds(400, 346, 185, 185);
+		getContentPane().add(btnNewButton_4_2);
+		
+		JTextPane txtpnRyey_4_2 = new JTextPane();
+		txtpnRyey_4_2.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_2.setBounds(400, 538, 185, 50);
+		getContentPane().add(txtpnRyey_4_2);
+		
+		JButton btnNewButton_4_3 = new JButton("");
+		btnNewButton_4_3.setOpaque(false);
+		btnNewButton_4_3.setContentAreaFilled(false);
+		btnNewButton_4_3.setBorderPainted(false);
+		btnNewButton_4_3.setBounds(595, 346, 185, 185);
+		getContentPane().add(btnNewButton_4_3);
+		
+		JTextPane txtpnRyey_4_3 = new JTextPane();
+		txtpnRyey_4_3.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_3.setBounds(595, 538, 185, 50);
+		getContentPane().add(txtpnRyey_4_3);
 		
 		
 	}
