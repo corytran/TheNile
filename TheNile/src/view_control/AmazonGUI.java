@@ -30,12 +30,16 @@ public class AmazonGUI extends MainMenu{
 		panel.add(btnTodaysDeals);
 		
 		JButton btnGo = new JButton("");
+		btnGo.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+			}
+		});
 		btnGo.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/Mag_35.PNG")));
 		btnGo.setOpaque(true);
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
 		btnGo.setBackground(new Color(147,79,1));
-		btnGo.setBounds(650, 10, 45, 32);
+		btnGo.setBounds(655, 10, 45, 32);
 		panel.add(btnGo);
 		
 		TextField textField = new TextField();
