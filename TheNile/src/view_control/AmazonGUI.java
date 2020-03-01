@@ -4,7 +4,7 @@ import java.awt.*;
 import java.awt.color.*;
 import javax.swing.*;
 import javax.swing.border.Border;
-
+import java.awt.image.*;
 import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.util.*;
@@ -69,6 +69,7 @@ public class AmazonGUI extends MainMenu{
 		panel.add(button_2);
 		
 		JButton button_3 = new JButton("Cart");
+		button_3.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/CartIcon_35.png")));
 		button_3.setForeground(Color.WHITE);
 		button_3.setOpaque(true);
 		button_3.setOpaque(false);
@@ -77,6 +78,13 @@ public class AmazonGUI extends MainMenu{
 		button_3.setBounds(710, 10, 64, 32);
 		panel.add(button_3);
 		
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/NileLogo_35.png")));
+		lblNewLabel.setBounds(0, 1, 76, 51);
+		panel.add(lblNewLabel);
+		
+		
 	}
 }
+
 //looks good on my computer at home
