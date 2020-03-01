@@ -173,6 +173,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_4);
 		
 		JButton btnNewButton_4_1 = new JButton("");
+		btnNewButton_4_1.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Witcher.jpg")));
 		btnNewButton_4_1.setOpaque(false);
 		btnNewButton_4_1.setContentAreaFilled(false);
 		btnNewButton_4_1.setBorderPainted(false);
@@ -180,7 +181,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_4_1);
 		
 		JTextPane txtpnRyey_4_1 = new JTextPane();
-		txtpnRyey_4_1.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4...");
 		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
