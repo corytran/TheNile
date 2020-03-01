@@ -89,6 +89,8 @@ public class TodaysDealsUI extends MainMenu{
 		panel.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setSelectedIcon(new ImageIcon("D:\\Downloads\\Motorbike.jpg"));
+		btnNewButton.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Motorbike.jpg")));
 		btnNewButton.setBounds(10, 93, 185, 185);
 		btnNewButton.setOpaque(false);
 		btnNewButton.setContentAreaFilled(false);
@@ -117,13 +119,15 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_3);
 		
 		JTextPane txtpnRyey = new JTextPane();
-		txtpnRyey.setText("ryey");
+		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		txtpnRyey.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
 		txtpnRyey.setForeground(new Color(89,183,255));
 		txtpnRyey.setBounds(10, 285, 185, 100);
 		txtpnRyey.setBackground(new Color(45,45,45));
 		getContentPane().add(txtpnRyey);
 		
 		JTextPane txtpnRyey_1 = new JTextPane();
+		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		txtpnRyey_1.setText("ryey");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
@@ -131,6 +135,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_1);
 		
 		JTextPane txtpnRyey_2 = new JTextPane();
+		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		txtpnRyey_2.setText("ryey");
 		txtpnRyey_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_2.setBackground(new Color(45, 45, 45));
@@ -138,6 +143,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_2);
 		
 		JTextPane txtpnRyey_3 = new JTextPane();
+		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		txtpnRyey_3.setText("ryey");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
