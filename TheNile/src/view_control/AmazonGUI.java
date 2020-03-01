@@ -33,20 +33,16 @@ public class AmazonGUI extends MainMenu{
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
 		btnGo.setBackground(new Color(147,79,1));
-		btnGo.setBounds(662, 11, 45, 32);
+		btnGo.setBounds(655, 10, 45, 32);
 		panel.add(btnGo);
 		
 		TextField textField = new TextField();
-		textField.setBounds(89, 11, 567, 32);
+		textField.setBounds(90, 10, 565, 32);
 		panel.add(textField);
 		textField.setText("");
 		textField.setFont(new Font("SansSerif", Font.PLAIN, 12));
 		textField.setForeground(new Color(255, 255, 255));
 		textField.setBackground(new Color(24, 26, 27));
-		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setBounds(717, 11, 57, 32);
-		panel.add(btnNewButton);
 		
 		JButton button = new JButton("Today's Deals");
 		button.setOpaque(true);
@@ -71,6 +67,15 @@ public class AmazonGUI extends MainMenu{
 		button_2.setBackground(new Color(35,47,62));
 		button_2.setBounds(569, 51, 150, 27);
 		panel.add(button_2);
+		
+		JButton button_3 = new JButton("Cart");
+		button_3.setForeground(Color.WHITE);
+		button_3.setOpaque(true);
+		button_3.setOpaque(false);
+		button_3.setContentAreaFilled(false);
+		button_3.setBorderPainted(false);
+		button_3.setBounds(710, 10, 64, 32);
+		panel.add(button_3);
 		
 	}
 }
