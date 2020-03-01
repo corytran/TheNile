@@ -10,11 +10,12 @@ import java.awt.event.ActionEvent;
 import java.util.*;
 public class AmazonGUI extends MainMenu{
 	public AmazonGUI() {
+		setBounds(100, 100, 800, 660);
 		getContentPane().setBackground(new Color(45,45,45));
 		getContentPane().setLayout(null);
 		
 		Panel panel = new Panel();
-		panel.setBounds(0, 0, 631, 87);
+		panel.setBounds(0, 0, 784, 87);
 		panel.setBackground(new Color(35,47,62));
 		getContentPane().add(panel);
 		panel.setLayout(null);
