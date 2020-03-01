@@ -20,74 +20,57 @@ public class AmazonGUI extends MainMenu{
 		getContentPane().add(panel);
 		panel.setLayout(null);
 		
-		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setForeground(Color.WHITE);
-		btnNewButton.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				System.out.println("hello");
-			}
-		});
-		btnNewButton.setBackground(new Color(35,57,92));
-		btnNewButton.setOpaque(true);
-		btnNewButton.setBorderPainted(false);
-		btnNewButton.setBounds(10, 11, 39, 23);
-		panel.add(btnNewButton);
-		
-		JButton btnClothing = new JButton("Clothing\r\n");
-		btnClothing.setOpaque(true);
-		btnClothing.setForeground(Color.WHITE);
-		btnClothing.setBorderPainted(false);
-		btnClothing.setBackground(new Color(35,57,92));
-		btnClothing.setBounds(89, 54, 73, 23);
-		panel.add(btnClothing);
-		
-		JButton btnGames = new JButton("Games");
-		btnGames.setOpaque(true);
-		btnGames.setForeground(Color.WHITE);
-		btnGames.setBorderPainted(false);
-		btnGames.setBackground(new Color(35,57,92));
-		btnGames.setBounds(238, 54, 65, 23);
-		panel.add(btnGames);
-		
-		JButton btnComputers = new JButton("Computers");
-		btnComputers.setOpaque(true);
-		btnComputers.setForeground(Color.WHITE);
-		btnComputers.setBorderPainted(false);
-		btnComputers.setBackground(new Color(35,57,92));
-		btnComputers.setBounds(313, 54, 85, 23);
-		panel.add(btnComputers);
-		
 		JButton btnTodaysDeals = new JButton("Today's Deals");
 		btnTodaysDeals.setOpaque(true);
 		btnTodaysDeals.setForeground(Color.WHITE);
 		btnTodaysDeals.setBorderPainted(false);
-		btnTodaysDeals.setBackground(new Color(35,57,92));
-		btnTodaysDeals.setBounds(412, 54, 99, 23);
+		btnTodaysDeals.setBackground(new Color(35,47,62));
+		btnTodaysDeals.setBounds(89, 49, 150, 27);
 		panel.add(btnTodaysDeals);
-		
-		JButton btnBooks = new JButton("Books");
-		btnBooks.setOpaque(true);
-		btnBooks.setForeground(Color.WHITE);
-		btnBooks.setBorderPainted(false);
-		btnBooks.setBackground(new Color(35,57,92));
-		btnBooks.setBounds(172, 54, 61, 23);
-		panel.add(btnBooks);
 		
 		JButton btnGo = new JButton("Go");
 		btnGo.setOpaque(true);
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
 		btnGo.setBackground(new Color(147,79,1));
-		btnGo.setBounds(517, 11, 45, 32);
+		btnGo.setBounds(662, 11, 45, 32);
 		panel.add(btnGo);
 		
 		TextField textField = new TextField();
-		textField.setBounds(89, 11, 422, 32);
+		textField.setBounds(89, 11, 567, 32);
 		panel.add(textField);
 		textField.setText("");
 		textField.setFont(new Font("SansSerif", Font.PLAIN, 12));
 		textField.setForeground(new Color(255, 255, 255));
 		textField.setBackground(new Color(24, 26, 27));
+		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setBounds(717, 11, 57, 32);
+		panel.add(btnNewButton);
+		
+		JButton button = new JButton("Today's Deals");
+		button.setOpaque(true);
+		button.setForeground(Color.WHITE);
+		button.setBorderPainted(false);
+		button.setBackground(new Color(35,47,62));
+		button.setBounds(249, 51, 150, 27);
+		panel.add(button);
+		
+		JButton button_1 = new JButton("Today's Deals");
+		button_1.setOpaque(true);
+		button_1.setForeground(Color.WHITE);
+		button_1.setBorderPainted(false);
+		button_1.setBackground(new Color(35,47,62));
+		button_1.setBounds(409, 51, 150, 27);
+		panel.add(button_1);
+		
+		JButton button_2 = new JButton("Today's Deals");
+		button_2.setOpaque(true);
+		button_2.setForeground(Color.WHITE);
+		button_2.setBorderPainted(false);
+		button_2.setBackground(new Color(35,47,62));
+		button_2.setBounds(569, 51, 150, 27);
+		panel.add(button_2);
 		
 	}
 }
