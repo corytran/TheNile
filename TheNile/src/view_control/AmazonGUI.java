@@ -21,6 +21,7 @@ public class AmazonGUI extends MainMenu{
 		panel.setLayout(null);
 		
 		JButton btnTodaysDeals = new JButton("Today's Deals");
+		btnTodaysDeals.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnTodaysDeals.setOpaque(true);
 		btnTodaysDeals.setForeground(Color.WHITE);
 		btnTodaysDeals.setBorderPainted(false);
@@ -28,45 +29,49 @@ public class AmazonGUI extends MainMenu{
 		btnTodaysDeals.setBounds(89, 49, 150, 27);
 		panel.add(btnTodaysDeals);
 		
-		JButton btnGo = new JButton("Go");
+		JButton btnGo = new JButton("");
+		btnGo.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/Mag_35.PNG")));
 		btnGo.setOpaque(true);
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
 		btnGo.setBackground(new Color(147,79,1));
-		btnGo.setBounds(655, 10, 45, 32);
+		btnGo.setBounds(650, 10, 45, 32);
 		panel.add(btnGo);
 		
 		TextField textField = new TextField();
 		textField.setBounds(90, 10, 565, 32);
 		panel.add(textField);
 		textField.setText("");
-		textField.setFont(new Font("SansSerif", Font.PLAIN, 12));
+		textField.setFont(new Font("SansSerif", Font.PLAIN, 18));
 		textField.setForeground(new Color(255, 255, 255));
 		textField.setBackground(new Color(24, 26, 27));
 		
-		JButton button = new JButton("Today's Deals");
-		button.setOpaque(true);
-		button.setForeground(Color.WHITE);
-		button.setBorderPainted(false);
-		button.setBackground(new Color(35,47,62));
-		button.setBounds(249, 51, 150, 27);
-		panel.add(button);
+		JButton btnBooks = new JButton("Books\r\n");
+		btnBooks.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		btnBooks.setOpaque(true);
+		btnBooks.setForeground(Color.WHITE);
+		btnBooks.setBorderPainted(false);
+		btnBooks.setBackground(new Color(35,47,62));
+		btnBooks.setBounds(249, 51, 150, 27);
+		panel.add(btnBooks);
 		
-		JButton button_1 = new JButton("Today's Deals");
-		button_1.setOpaque(true);
-		button_1.setForeground(Color.WHITE);
-		button_1.setBorderPainted(false);
-		button_1.setBackground(new Color(35,47,62));
-		button_1.setBounds(409, 51, 150, 27);
-		panel.add(button_1);
+		JButton btnGames = new JButton("Games\r\n");
+		btnGames.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		btnGames.setOpaque(true);
+		btnGames.setForeground(Color.WHITE);
+		btnGames.setBorderPainted(false);
+		btnGames.setBackground(new Color(35,47,62));
+		btnGames.setBounds(409, 51, 150, 27);
+		panel.add(btnGames);
 		
-		JButton button_2 = new JButton("Today's Deals");
-		button_2.setOpaque(true);
-		button_2.setForeground(Color.WHITE);
-		button_2.setBorderPainted(false);
-		button_2.setBackground(new Color(35,47,62));
-		button_2.setBounds(569, 51, 150, 27);
-		panel.add(button_2);
+		JButton btnComputers = new JButton("Computers");
+		btnComputers.setFont(new Font("Tahoma", Font.PLAIN, 13));
+		btnComputers.setOpaque(true);
+		btnComputers.setForeground(Color.WHITE);
+		btnComputers.setBorderPainted(false);
+		btnComputers.setBackground(new Color(35,47,62));
+		btnComputers.setBounds(569, 51, 150, 27);
+		panel.add(btnComputers);
 		
 		JButton button_3 = new JButton("Cart");
 		button_3.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/CartIcon_35.png")));
