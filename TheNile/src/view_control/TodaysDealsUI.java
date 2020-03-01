@@ -98,6 +98,8 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("");
+		btnNewButton_1.setIcon(new ImageIcon("D:\\Downloads\\RTX.jpg"));
+		btnNewButton_1.setSelectedIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/RTX.jpg")));
 		btnNewButton_1.setOpaque(false);
 		btnNewButton_1.setContentAreaFilled(false);
 		btnNewButton_1.setBorderPainted(false);
@@ -128,7 +130,7 @@ public class TodaysDealsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_1 = new JTextPane();
 		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 13));
-		txtpnRyey_1.setText("ryey");
+		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6...");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
@@ -214,4 +216,4 @@ public class TodaysDealsUI extends MainMenu{
 	}
 }
 
-//looks good on my computer at home
+//looks good on my computer at24 home
