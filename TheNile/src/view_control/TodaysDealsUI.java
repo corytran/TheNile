@@ -9,6 +9,7 @@ import java.awt.event.ActionListener;
 import java.awt.event.ActionEvent;
 import java.util.*;
 public class TodaysDealsUI extends MainMenu{
+	private JTextField txtRandomTest;
 	public TodaysDealsUI() {
 		setBounds(100, 100, 800, 660);
 		getContentPane().setBackground(new Color(45,45,45));
@@ -114,6 +115,34 @@ public class TodaysDealsUI extends MainMenu{
 		btnNewButton_3.setBorderPainted(false);
 		btnNewButton_3.setBounds(595, 93, 185, 185);
 		getContentPane().add(btnNewButton_3);
+		
+		JTextPane txtpnRyey = new JTextPane();
+		txtpnRyey.setText("ryey");
+		txtpnRyey.setForeground(new Color(89,183,255));
+		txtpnRyey.setBounds(10, 285, 185, 100);
+		txtpnRyey.setBackground(new Color(45,45,45));
+		getContentPane().add(txtpnRyey);
+		
+		JTextPane txtpnRyey_1 = new JTextPane();
+		txtpnRyey_1.setText("ryey");
+		txtpnRyey_1.setForeground(new Color(89, 183, 255));
+		txtpnRyey_1.setBackground(new Color(45, 45, 45));
+		txtpnRyey_1.setBounds(205, 285, 185, 100);
+		getContentPane().add(txtpnRyey_1);
+		
+		JTextPane txtpnRyey_2 = new JTextPane();
+		txtpnRyey_2.setText("ryey");
+		txtpnRyey_2.setForeground(new Color(89, 183, 255));
+		txtpnRyey_2.setBackground(new Color(45, 45, 45));
+		txtpnRyey_2.setBounds(400, 285, 185, 100);
+		getContentPane().add(txtpnRyey_2);
+		
+		JTextPane txtpnRyey_3 = new JTextPane();
+		txtpnRyey_3.setText("ryey");
+		txtpnRyey_3.setForeground(new Color(89, 183, 255));
+		txtpnRyey_3.setBackground(new Color(45, 45, 45));
+		txtpnRyey_3.setBounds(595, 285, 185, 100);
+		getContentPane().add(txtpnRyey_3);
 		
 		
 	}
