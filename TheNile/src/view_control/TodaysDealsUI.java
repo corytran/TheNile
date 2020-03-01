@@ -116,6 +116,8 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("");
+		btnNewButton_3.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
+		btnNewButton_3.setSelectedIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
 		btnNewButton_3.setOpaque(false);
 		btnNewButton_3.setContentAreaFilled(false);
 		btnNewButton_3.setBorderPainted(false);
@@ -148,7 +150,7 @@ public class TodaysDealsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_3 = new JTextPane();
 		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_3.setText("ryey");
+		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in...");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
 		txtpnRyey_3.setBounds(595, 285, 185, 40);
