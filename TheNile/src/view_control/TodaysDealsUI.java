@@ -189,6 +189,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_1);
 		
 		JButton btnNewButton_4_2 = new JButton("");
+		btnNewButton_4_2.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/FF_1_55.jpg")));
 		btnNewButton_4_2.setOpaque(false);
 		btnNewButton_4_2.setContentAreaFilled(false);
 		btnNewButton_4_2.setBorderPainted(false);
@@ -196,7 +197,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_4_2);
 		
 		JTextPane txtpnRyey_4_2 = new JTextPane();
-		txtpnRyey_4_2.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4_2.setText("Final Fantasy VII Remake - PlayStation 4 Deluxe Edition");
 		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));
@@ -204,6 +205,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_2);
 		
 		JButton btnNewButton_4_3 = new JButton("");
+		btnNewButton_4_3.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/OSU_55.jpg")));
 		btnNewButton_4_3.setOpaque(false);
 		btnNewButton_4_3.setContentAreaFilled(false);
 		btnNewButton_4_3.setBorderPainted(false);
@@ -211,7 +213,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_4_3);
 		
 		JTextPane txtpnRyey_4_3 = new JTextPane();
-		txtpnRyey_4_3.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
+		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet Draw...");
 		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
