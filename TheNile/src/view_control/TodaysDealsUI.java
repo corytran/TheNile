@@ -107,6 +107,7 @@ public class TodaysDealsUI extends MainMenu{
 		getContentPane().add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("");
+		btnNewButton_2.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Invent.jpg")));
 		btnNewButton_2.setSelectedIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/Invent.jpg")));
 		btnNewButton_2.setOpaque(false);
 		btnNewButton_2.setContentAreaFilled(false);
@@ -125,7 +126,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike");
 		txtpnRyey.setForeground(new Color(89,183,255));
-		txtpnRyey.setBounds(10, 285, 185, 50);
+		txtpnRyey.setBounds(10, 285, 185, 40);
 		txtpnRyey.setBackground(new Color(45,45,45));
 		getContentPane().add(txtpnRyey);
 		
@@ -134,15 +135,15 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6...");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
-		txtpnRyey_1.setBounds(205, 285, 185, 50);
+		txtpnRyey_1.setBounds(205, 285, 185, 40);
 		getContentPane().add(txtpnRyey_1);
 		
 		JTextPane txtpnRyey_2 = new JTextPane();
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_2.setText("ryey");
+		txtpnRyey_2.setText("How to Invent Everything: Rebuild All of Civilization (with...");
 		txtpnRyey_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_2.setBackground(new Color(45, 45, 45));
-		txtpnRyey_2.setBounds(400, 285, 185, 50);
+		txtpnRyey_2.setBounds(400, 285, 185, 40);
 		getContentPane().add(txtpnRyey_2);
 		
 		JTextPane txtpnRyey_3 = new JTextPane();
@@ -150,7 +151,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_3.setText("ryey");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
-		txtpnRyey_3.setBounds(595, 285, 185, 50);
+		txtpnRyey_3.setBounds(595, 285, 185, 40);
 		getContentPane().add(txtpnRyey_3);
 		
 		JTextPane txtpnRyey_4 = new JTextPane();
@@ -158,7 +159,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_4.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4.setBackground(new Color(45, 45, 45));
-		txtpnRyey_4.setBounds(10, 538, 185, 50);
+		txtpnRyey_4.setBounds(10, 538, 185, 40);
 		getContentPane().add(txtpnRyey_4);
 		
 		JButton btnNewButton_4 = new JButton("");
@@ -180,7 +181,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
-		txtpnRyey_4_1.setBounds(205, 538, 185, 50);
+		txtpnRyey_4_1.setBounds(205, 538, 185, 40);
 		getContentPane().add(txtpnRyey_4_1);
 		
 		JButton btnNewButton_4_2 = new JButton("");
@@ -195,7 +196,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));
-		txtpnRyey_4_2.setBounds(400, 538, 185, 50);
+		txtpnRyey_4_2.setBounds(400, 538, 185, 40);
 		getContentPane().add(txtpnRyey_4_2);
 		
 		JButton btnNewButton_4_3 = new JButton("");
@@ -210,7 +211,7 @@ public class TodaysDealsUI extends MainMenu{
 		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
-		txtpnRyey_4_3.setBounds(595, 538, 185, 50);
+		txtpnRyey_4_3.setBounds(595, 538, 185, 40);
 		getContentPane().add(txtpnRyey_4_3);
 		
 		
