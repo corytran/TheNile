@@ -142,7 +142,7 @@ public class BooksUI extends MainMenu{
 		JTextPane txtpnRyey_2 = new JTextPane();
 		txtpnRyey_2.setEditable(false);
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_2.setText("How to Invent Everything: Rebuild All of Civilization (with...\r\n$19.99");
+		txtpnRyey_2.setText("How to Invent Everything: Rebuild All of Civilization\r\n$19.99");
 		txtpnRyey_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_2.setBackground(new Color(45, 45, 45));
 		txtpnRyey_2.setBounds(400, 285, 185, 50);
@@ -201,7 +201,7 @@ public class BooksUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_2 = new JTextPane();
 		txtpnRyey_4_2.setEditable(false);
-		txtpnRyey_4_2.setText("The Illustrated Brief History of Time, Updated and Expanded...\r\n$39.99");
+		txtpnRyey_4_2.setText("The Illustrated Brief History of Time, Updated and Expanded\r\n$39.99");
 		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));

@@ -186,7 +186,7 @@ public class GamesUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_1 = new JTextPane();
 		txtpnRyey_4_1.setEditable(false);
-		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4...\r\n$79.99");
+		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4\r\n$79.99");
 		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));

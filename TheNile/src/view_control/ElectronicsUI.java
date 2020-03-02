@@ -89,8 +89,7 @@ public class ElectronicsUI extends MainMenu{
 		panel.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("");
-		btnNewButton.setSelectedIcon(new ImageIcon("D:\\Downloads\\Motorbike.jpg"));
-		btnNewButton.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Motorbike.jpg")));
+		btnNewButton.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Ryzen.jpg")));
 		btnNewButton.setBounds(10, 93, 185, 185);
 		btnNewButton.setOpaque(false);
 		btnNewButton.setContentAreaFilled(false);
@@ -107,7 +106,7 @@ public class ElectronicsUI extends MainMenu{
 		getContentPane().add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("");
-		btnNewButton_2.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Invent.jpg")));
+		btnNewButton_2.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/DellXPS_50.jpg")));
 		btnNewButton_2.setSelectedIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Invent.jpg")));
 		btnNewButton_2.setOpaque(false);
 		btnNewButton_2.setContentAreaFilled(false);
@@ -127,7 +126,7 @@ public class ElectronicsUI extends MainMenu{
 		JTextPane txtpnRyey = new JTextPane();
 		txtpnRyey.setEditable(false);
 		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike\r\n$19.99");
+		txtpnRyey.setText("AMD Ryzen 9 3950X 16-core, 32-Thread Processor\r\n$749.99");
 		txtpnRyey.setForeground(new Color(89,183,255));
 		txtpnRyey.setBounds(10, 285, 185, 50);
 		txtpnRyey.setBackground(new Color(45,45,45));
@@ -136,7 +135,7 @@ public class ElectronicsUI extends MainMenu{
 		JTextPane txtpnRyey_1 = new JTextPane();
 		txtpnRyey_1.setEditable(false);
 		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6...\r\n$549.99");
+		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6\r\n$549.99");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
@@ -145,7 +144,7 @@ public class ElectronicsUI extends MainMenu{
 		JTextPane txtpnRyey_2 = new JTextPane();
 		txtpnRyey_2.setEditable(false);
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_2.setText("How to Invent Everything: Rebuild All of Civilization (with...\r\n$19.99");
+		txtpnRyey_2.setText("Dell XPS 15 laptop 15.6\", 4K UHD InfinityEdge Touch\r\n$1899.99");
 		txtpnRyey_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_2.setBackground(new Color(45, 45, 45));
 		txtpnRyey_2.setBounds(400, 285, 185, 50);
@@ -154,7 +153,7 @@ public class ElectronicsUI extends MainMenu{
 		JTextPane txtpnRyey_3 = new JTextPane();
 		txtpnRyey_3.setEditable(false);
 		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in...\r\n$39.99");
+		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
 		txtpnRyey_3.setBounds(595, 285, 185, 50);
@@ -162,7 +161,7 @@ public class ElectronicsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4 = new JTextPane();
 		txtpnRyey_4.setEditable(false);
-		txtpnRyey_4.setText("Milkman: A Novel Paperback \u2013 Anna Burns\r\n$7.99");
+		txtpnRyey_4.setText("Samsung Galaxy S10 Factory Unlocked Phone with 128GB\r\n$599.99");
 		txtpnRyey_4.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4.setBackground(new Color(45, 45, 45));
@@ -170,7 +169,7 @@ public class ElectronicsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4);
 		
 		JButton btnNewButton_4 = new JButton("");
-		btnNewButton_4.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Milkman.jpg")));
+		btnNewButton_4.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/GalaxyS10.jpg")));
 		btnNewButton_4.setOpaque(false);
 		btnNewButton_4.setContentAreaFilled(false);
 		btnNewButton_4.setBorderPainted(false);
@@ -187,7 +186,7 @@ public class ElectronicsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_1 = new JTextPane();
 		txtpnRyey_4_1.setEditable(false);
-		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4...\r\n$79.99");
+		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4\r\n$79.99");
 		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
@@ -221,7 +220,7 @@ public class ElectronicsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_3 = new JTextPane();
 		txtpnRyey_4_3.setEditable(false);
-		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet Draw...\r\n$29.99");
+		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet\r\n$29.99");
 		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));

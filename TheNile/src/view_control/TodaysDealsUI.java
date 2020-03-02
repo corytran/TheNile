@@ -136,7 +136,7 @@ public class TodaysDealsUI extends MainMenu{
 		JTextPane txtpnRyey_1 = new JTextPane();
 		txtpnRyey_1.setEditable(false);
 		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6...\r\n$549.99");
+		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6\r\n$549.99");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
@@ -145,7 +145,7 @@ public class TodaysDealsUI extends MainMenu{
 		JTextPane txtpnRyey_2 = new JTextPane();
 		txtpnRyey_2.setEditable(false);
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_2.setText("How to Invent Everything: Rebuild All of Civilization (with...\r\n$19.99");
+		txtpnRyey_2.setText("How to Invent Everything: Rebuild All of Civilization\r\n$19.99");
 		txtpnRyey_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_2.setBackground(new Color(45, 45, 45));
 		txtpnRyey_2.setBounds(400, 285, 185, 50);
@@ -154,7 +154,7 @@ public class TodaysDealsUI extends MainMenu{
 		JTextPane txtpnRyey_3 = new JTextPane();
 		txtpnRyey_3.setEditable(false);
 		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in...\r\n$39.99");
+		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in\r\n$39.99");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
 		txtpnRyey_3.setBounds(595, 285, 185, 50);
@@ -187,7 +187,7 @@ public class TodaysDealsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_1 = new JTextPane();
 		txtpnRyey_4_1.setEditable(false);
-		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4...\r\n$79.99");
+		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4\r\n$79.99");
 		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
@@ -221,7 +221,7 @@ public class TodaysDealsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_3 = new JTextPane();
 		txtpnRyey_4_3.setEditable(false);
-		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet Draw...\r\n$29.99");
+		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet\r\n$29.99");
 		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
