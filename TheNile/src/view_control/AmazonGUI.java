@@ -92,6 +92,33 @@ public class AmazonGUI extends MainMenu{
 		lblNewLabel.setBounds(0, 1, 76, 51);
 		panel.add(lblNewLabel);
 		
+		JButton btnNewButton = new JButton("New button");
+		btnNewButton.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/RyzenBig.jpg")));
+		btnNewButton.setBackground(Color.WHITE);
+		btnNewButton.setOpaque(true);
+		btnNewButton.setBounds(10, 219, 245, 250);
+		btnNewButton.setContentAreaFilled(true);
+		getContentPane().add(btnNewButton);
+		
+		JButton btnNewButton_1 = new JButton("New button");
+		btnNewButton_1.setOpaque(true);
+		btnNewButton_1.setContentAreaFilled(true);
+		btnNewButton_1.setBackground(Color.WHITE);
+		btnNewButton_1.setBounds(270, 219, 245, 250);
+		getContentPane().add(btnNewButton_1);
+		
+		JButton btnNewButton_2 = new JButton("New button");
+		btnNewButton_2.setOpaque(true);
+		btnNewButton_2.setContentAreaFilled(true);
+		btnNewButton_2.setBackground(Color.WHITE);
+		btnNewButton_2.setBounds(529, 219, 245, 250);
+		getContentPane().add(btnNewButton_2);
+		
+		JLabel lblNewLabel_1 = new JLabel("New label");
+		lblNewLabel_1.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/Dell XPS Background.png")));
+		lblNewLabel_1.setBounds(10, 93, 764, 495);
+		getContentPane().add(lblNewLabel_1);
+		
 		
 	}
 }
