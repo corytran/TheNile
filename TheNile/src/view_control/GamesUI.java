@@ -12,7 +12,7 @@ public class GamesUI extends MainMenu{
 	private JTextField txtRandomTest;
 	public GamesUI() {
 		setBounds(100, 100, 800, 660);
-		getContentPane().setBackground(new Color(45,45,45));
+		getContentPane().setBackground(Color.WHITE);
 		getContentPane().setLayout(null);
 		
 		Panel panel = new Panel();
@@ -44,8 +44,8 @@ public class GamesUI extends MainMenu{
 		panel.add(textField);
 		textField.setText("");
 		textField.setFont(new Font("SansSerif", Font.PLAIN, 18));
-		textField.setForeground(new Color(255, 255, 255));
-		textField.setBackground(new Color(24, 26, 27));
+		textField.setForeground(Color.BLACK);
+		textField.setBackground(Color.WHITE);
 		
 		JButton btnBooks = new JButton("Books\r\n");
 		btnBooks.setFont(new Font("Tahoma", Font.PLAIN, 13));
@@ -127,17 +127,17 @@ public class GamesUI extends MainMenu{
 		txtpnRyey.setEditable(false);
 		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey.setText("Super Smash Bros. Ultimate\r\n$59.99");
-		txtpnRyey.setForeground(new Color(89,183,255));
+		txtpnRyey.setForeground(Color.BLACK);
 		txtpnRyey.setBounds(10, 285, 185, 50);
-		txtpnRyey.setBackground(new Color(45,45,45));
+		txtpnRyey.setBackground(Color.WHITE);
 		getContentPane().add(txtpnRyey);
 		
 		JTextPane txtpnRyey_1 = new JTextPane();
 		txtpnRyey_1.setEditable(false);
 		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_1.setText("Europa Universalis IV\r\n$39.99");
-		txtpnRyey_1.setForeground(new Color(89, 183, 255));
-		txtpnRyey_1.setBackground(new Color(45, 45, 45));
+		txtpnRyey_1.setForeground(Color.BLACK);
+		txtpnRyey_1.setBackground(Color.WHITE);
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
 		getContentPane().add(txtpnRyey_1);
 		
@@ -145,8 +145,8 @@ public class GamesUI extends MainMenu{
 		txtpnRyey_2.setEditable(false);
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_2.setText("Stellaris - Galaxy Edition\r\n$69.99");
-		txtpnRyey_2.setForeground(new Color(89, 183, 255));
-		txtpnRyey_2.setBackground(new Color(45, 45, 45));
+		txtpnRyey_2.setForeground(Color.BLACK);
+		txtpnRyey_2.setBackground(Color.WHITE);
 		txtpnRyey_2.setBounds(400, 285, 185, 50);
 		getContentPane().add(txtpnRyey_2);
 		
@@ -154,17 +154,17 @@ public class GamesUI extends MainMenu{
 		txtpnRyey_3.setEditable(false);
 		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_3.setText("Kerbal Space Program\r\n$39.99");
-		txtpnRyey_3.setForeground(new Color(89, 183, 255));
-		txtpnRyey_3.setBackground(new Color(45, 45, 45));
+		txtpnRyey_3.setForeground(Color.BLACK);
+		txtpnRyey_3.setBackground(Color.WHITE);
 		txtpnRyey_3.setBounds(595, 285, 185, 50);
 		getContentPane().add(txtpnRyey_3);
 		
 		JTextPane txtpnRyey_4 = new JTextPane();
 		txtpnRyey_4.setEditable(false);
 		txtpnRyey_4.setText("Rocket League Ultimate Edition - PlayStation 4\r\n$39.99");
-		txtpnRyey_4.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4.setForeground(Color.BLACK);
 		txtpnRyey_4.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4.setBackground(Color.WHITE);
 		txtpnRyey_4.setBounds(10, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4);
 		
@@ -187,9 +187,9 @@ public class GamesUI extends MainMenu{
 		JTextPane txtpnRyey_4_1 = new JTextPane();
 		txtpnRyey_4_1.setEditable(false);
 		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4\r\n$79.99");
-		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_1.setForeground(Color.BLACK);
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_1.setBackground(Color.WHITE);
 		txtpnRyey_4_1.setBounds(205, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4_1);
 		
@@ -204,9 +204,9 @@ public class GamesUI extends MainMenu{
 		JTextPane txtpnRyey_4_2 = new JTextPane();
 		txtpnRyey_4_2.setEditable(false);
 		txtpnRyey_4_2.setText("Final Fantasy VII Remake - PlayStation 4 Deluxe Edition\r\n$79.99");
-		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_2.setForeground(Color.BLACK);
 		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_2.setBackground(Color.WHITE);
 		txtpnRyey_4_2.setBounds(400, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4_2);
 		
@@ -221,9 +221,9 @@ public class GamesUI extends MainMenu{
 		JTextPane txtpnRyey_4_3 = new JTextPane();
 		txtpnRyey_4_3.setEditable(false);
 		txtpnRyey_4_3.setText("Persona 5 Royal: Steelbook Launch Edition - PlayStation 4\r\n$59.99");
-		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_3.setForeground(Color.BLACK);
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_3.setBackground(Color.WHITE);
 		txtpnRyey_4_3.setBounds(595, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4_3);
 		

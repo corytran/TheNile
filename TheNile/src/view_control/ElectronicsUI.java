@@ -44,7 +44,7 @@ public class ElectronicsUI extends MainMenu{
 		panel.add(textField);
 		textField.setText("");
 		textField.setFont(new Font("SansSerif", Font.PLAIN, 18));
-		textField.setForeground(new Color(255, 255, 255));
+		textField.setForeground(Color.BLACK);
 		textField.setBackground(Color.WHITE);
 		
 		JButton btnBooks = new JButton("Books\r\n");
