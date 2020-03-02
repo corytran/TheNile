@@ -177,7 +177,7 @@ public class ElectronicsUI extends MainMenu{
 		getContentPane().add(btnNewButton_4);
 		
 		JButton btnNewButton_4_1 = new JButton("");
-		btnNewButton_4_1.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Witcher.jpg")));
+		btnNewButton_4_1.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Ps4.jpg")));
 		btnNewButton_4_1.setOpaque(false);
 		btnNewButton_4_1.setContentAreaFilled(false);
 		btnNewButton_4_1.setBorderPainted(false);
@@ -186,7 +186,7 @@ public class ElectronicsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_1 = new JTextPane();
 		txtpnRyey_4_1.setEditable(false);
-		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4\r\n$79.99");
+		txtpnRyey_4_1.setText("PlayStation 4 Pro 1TB Console\r\n$399.99");
 		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
@@ -194,7 +194,7 @@ public class ElectronicsUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_1);
 		
 		JButton btnNewButton_4_2 = new JButton("");
-		btnNewButton_4_2.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/FF_1_55.jpg")));
+		btnNewButton_4_2.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/Vizio.jpg")));
 		btnNewButton_4_2.setOpaque(false);
 		btnNewButton_4_2.setContentAreaFilled(false);
 		btnNewButton_4_2.setBorderPainted(false);
@@ -203,7 +203,7 @@ public class ElectronicsUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_2 = new JTextPane();
 		txtpnRyey_4_2.setEditable(false);
-		txtpnRyey_4_2.setText("Final Fantasy VII Remake - PlayStation 4 Deluxe Edition\r\n$79.99");
+		txtpnRyey_4_2.setText("VIZIO P-Series Quantum 65\u201D\r\n$1399.99");
 		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));
