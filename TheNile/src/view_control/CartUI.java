@@ -81,7 +81,6 @@ public class CartUI extends MainMenu{
 		button_3.setIcon(new ImageIcon(CartUI.class.getResource("/view_control/CartIcon_35.png")));
 		button_3.setForeground(Color.WHITE);
 		button_3.setOpaque(true);
-		button_3.setOpaque(false);
 		button_3.setContentAreaFilled(false);
 		button_3.setBorderPainted(false);
 		button_3.setBounds(710, 10, 64, 32);
@@ -91,6 +90,49 @@ public class CartUI extends MainMenu{
 		lblNewLabel.setIcon(new ImageIcon(CartUI.class.getResource("/view_control/NileLogo_35.png")));
 		lblNewLabel.setBounds(0, 1, 76, 51);
 		panel.add(lblNewLabel);
+		
+		JTextPane txtpnShoppingCart = new JTextPane();
+		txtpnShoppingCart.setFont(new Font("Tahoma", Font.PLAIN, 24));
+		txtpnShoppingCart.setText("Shopping Cart");
+		txtpnShoppingCart.setBounds(10, 93, 215, 50);
+		getContentPane().add(txtpnShoppingCart);
+		
+		JList list = new JList();
+		list.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		list.setBackground(Color.PINK);
+		list.setBounds(20, 145, 540, 345);
+		getContentPane().add(list);
+		
+		JList list_1 = new JList();
+		list_1.setBackground(Color.GREEN);
+		list_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		list_1.setBounds(558, 145, 100, 345);
+		getContentPane().add(list_1);
+		
+		JTextPane txtpnPrice = new JTextPane();
+		txtpnPrice.setFont(new Font("Tahoma", Font.PLAIN, 14));
+		txtpnPrice.setText("Price");
+		txtpnPrice.setBounds(622, 123, 36, 20);
+		getContentPane().add(txtpnPrice);
+		
+		JButton btnNewButton = new JButton("Checkout");
+		btnNewButton.setBackground(new Color(242,200,100));
+		btnNewButton.setOpaque(true);
+		btnNewButton.setBorderPainted(false);
+		btnNewButton.setBounds(668, 185, 106, 23);
+		getContentPane().add(btnNewButton);
+		
+		JPanel panel_1 = new JPanel();
+		panel_1.setBounds(661, 145, 123, 70);
+		getContentPane().add(panel_1);
+		panel_1.setLayout(null);
+		
+		JTextPane txtpnSubtotal = new JTextPane();
+		txtpnSubtotal.setFont(new Font("Tahoma", Font.PLAIN, 12));
+		txtpnSubtotal.setBackground(new Color(240,240,240));
+		txtpnSubtotal.setBounds(10, 11, 103, 25);
+		panel_1.add(txtpnSubtotal);
+		txtpnSubtotal.setText("Subtotal:\r\n");
 		
 		
 	}
