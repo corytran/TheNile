@@ -12,7 +12,7 @@ public class ElectronicsUI extends MainMenu{
 	private JTextField txtRandomTest;
 	public ElectronicsUI() {
 		setBounds(100, 100, 800, 660);
-		getContentPane().setBackground(new Color(45,45,45));
+		getContentPane().setBackground(Color.WHITE);
 		getContentPane().setLayout(null);
 		
 		Panel panel = new Panel();
@@ -45,7 +45,7 @@ public class ElectronicsUI extends MainMenu{
 		textField.setText("");
 		textField.setFont(new Font("SansSerif", Font.PLAIN, 18));
 		textField.setForeground(new Color(255, 255, 255));
-		textField.setBackground(new Color(24, 26, 27));
+		textField.setBackground(Color.WHITE);
 		
 		JButton btnBooks = new JButton("Books\r\n");
 		btnBooks.setFont(new Font("Tahoma", Font.PLAIN, 13));
@@ -127,17 +127,17 @@ public class ElectronicsUI extends MainMenu{
 		txtpnRyey.setEditable(false);
 		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey.setText("AMD Ryzen 9 3950X 16-core, 32-Thread Processor\r\n$749.99");
-		txtpnRyey.setForeground(new Color(89,183,255));
+		txtpnRyey.setForeground(Color.BLACK);
 		txtpnRyey.setBounds(10, 285, 185, 50);
-		txtpnRyey.setBackground(new Color(45,45,45));
+		txtpnRyey.setBackground(Color.WHITE);
 		getContentPane().add(txtpnRyey);
 		
 		JTextPane txtpnRyey_1 = new JTextPane();
 		txtpnRyey_1.setEditable(false);
 		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6\r\n$549.99");
-		txtpnRyey_1.setForeground(new Color(89, 183, 255));
-		txtpnRyey_1.setBackground(new Color(45, 45, 45));
+		txtpnRyey_1.setForeground(Color.BLACK);
+		txtpnRyey_1.setBackground(Color.WHITE);
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
 		getContentPane().add(txtpnRyey_1);
 		
@@ -145,8 +145,8 @@ public class ElectronicsUI extends MainMenu{
 		txtpnRyey_2.setEditable(false);
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_2.setText("Dell XPS 15 laptop 15.6\", 4K UHD InfinityEdge Touch\r\n$1899.99");
-		txtpnRyey_2.setForeground(new Color(89, 183, 255));
-		txtpnRyey_2.setBackground(new Color(45, 45, 45));
+		txtpnRyey_2.setForeground(Color.BLACK);
+		txtpnRyey_2.setBackground(Color.WHITE);
 		txtpnRyey_2.setBounds(400, 285, 185, 50);
 		getContentPane().add(txtpnRyey_2);
 		
@@ -154,17 +154,17 @@ public class ElectronicsUI extends MainMenu{
 		txtpnRyey_3.setEditable(false);
 		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in");
-		txtpnRyey_3.setForeground(new Color(89, 183, 255));
-		txtpnRyey_3.setBackground(new Color(45, 45, 45));
+		txtpnRyey_3.setForeground(Color.BLACK);
+		txtpnRyey_3.setBackground(Color.WHITE);
 		txtpnRyey_3.setBounds(595, 285, 185, 50);
 		getContentPane().add(txtpnRyey_3);
 		
 		JTextPane txtpnRyey_4 = new JTextPane();
 		txtpnRyey_4.setEditable(false);
 		txtpnRyey_4.setText("Samsung Galaxy S10 Factory Unlocked Phone with 128GB\r\n$599.99");
-		txtpnRyey_4.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4.setForeground(Color.BLACK);
 		txtpnRyey_4.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4.setBackground(Color.WHITE);
 		txtpnRyey_4.setBounds(10, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4);
 		
@@ -187,9 +187,9 @@ public class ElectronicsUI extends MainMenu{
 		JTextPane txtpnRyey_4_1 = new JTextPane();
 		txtpnRyey_4_1.setEditable(false);
 		txtpnRyey_4_1.setText("PlayStation 4 Pro 1TB Console\r\n$399.99");
-		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_1.setForeground(Color.BLACK);
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_1.setBackground(Color.WHITE);
 		txtpnRyey_4_1.setBounds(205, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4_1);
 		
@@ -204,9 +204,9 @@ public class ElectronicsUI extends MainMenu{
 		JTextPane txtpnRyey_4_2 = new JTextPane();
 		txtpnRyey_4_2.setEditable(false);
 		txtpnRyey_4_2.setText("VIZIO P-Series Quantum 65\u201D\r\n$1399.99");
-		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_2.setForeground(Color.BLACK);
 		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_2.setBackground(Color.WHITE);
 		txtpnRyey_4_2.setBounds(400, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4_2);
 		
@@ -221,9 +221,9 @@ public class ElectronicsUI extends MainMenu{
 		JTextPane txtpnRyey_4_3 = new JTextPane();
 		txtpnRyey_4_3.setEditable(false);
 		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet\r\n$29.99");
-		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
+		txtpnRyey_4_3.setForeground(Color.BLACK);
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
+		txtpnRyey_4_3.setBackground(Color.WHITE);
 		txtpnRyey_4_3.setBounds(595, 538, 185, 50);
 		getContentPane().add(txtpnRyey_4_3);
 		
