@@ -93,24 +93,29 @@ public class AmazonGUI extends MainMenu{
 		panel.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("New button");
-		btnNewButton.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/RyzenBig.jpg")));
+		btnNewButton.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/RyzenBig_68.jpg")));
 		btnNewButton.setBackground(Color.WHITE);
 		btnNewButton.setOpaque(true);
 		btnNewButton.setBounds(10, 219, 245, 250);
+		btnNewButton.setBorderPainted(false);
 		btnNewButton.setContentAreaFilled(true);
 		getContentPane().add(btnNewButton);
 		
-		JButton btnNewButton_1 = new JButton("New button");
+		JButton btnNewButton_1 = new JButton("");
+		btnNewButton_1.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/OsuPad_26.jpg")));
 		btnNewButton_1.setOpaque(true);
 		btnNewButton_1.setContentAreaFilled(true);
+		btnNewButton_1.setBorderPainted(false);
 		btnNewButton_1.setBackground(Color.WHITE);
 		btnNewButton_1.setBounds(270, 219, 245, 250);
 		getContentPane().add(btnNewButton_1);
 		
-		JButton btnNewButton_2 = new JButton("New button");
-		btnNewButton_2.setOpaque(true);
-		btnNewButton_2.setContentAreaFilled(true);
+		JButton btnNewButton_2 = new JButton("");
+		btnNewButton_2.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/KSPPage.jpg")));
 		btnNewButton_2.setBackground(Color.WHITE);
+		btnNewButton_2.setOpaque(true);
+		btnNewButton_2.setBorderPainted(false);
+		btnNewButton_2.setContentAreaFilled(true);
 		btnNewButton_2.setBounds(529, 219, 245, 250);
 		getContentPane().add(btnNewButton_2);
 		
@@ -118,6 +123,12 @@ public class AmazonGUI extends MainMenu{
 		lblNewLabel_1.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/Dell XPS Background.png")));
 		lblNewLabel_1.setBounds(10, 93, 764, 495);
 		getContentPane().add(lblNewLabel_1);
+		
+		JTextPane txtpnShopThisMarch = new JTextPane();
+		txtpnShopThisMarch.setFont(new Font("Tahoma", Font.PLAIN, 26));
+		txtpnShopThisMarch.setText("Shop this March for All New Items");
+		txtpnShopThisMarch.setBounds(185, 505, 425, 70);
+		getContentPane().add(txtpnShopThisMarch);
 		
 		
 	}
