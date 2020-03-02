@@ -89,8 +89,7 @@ public class BooksUI extends MainMenu{
 		panel.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("");
-		btnNewButton.setSelectedIcon(new ImageIcon("D:\\Downloads\\Motorbike.jpg"));
-		btnNewButton.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Motorbike.jpg")));
+		btnNewButton.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Solaris.jpg")));
 		btnNewButton.setBounds(10, 93, 185, 185);
 		btnNewButton.setOpaque(false);
 		btnNewButton.setContentAreaFilled(false);
@@ -98,8 +97,7 @@ public class BooksUI extends MainMenu{
 		getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("");
-		btnNewButton_1.setIcon(new ImageIcon("D:\\Downloads\\RTX.jpg"));
-		btnNewButton_1.setSelectedIcon(new ImageIcon(BooksUI.class.getResource("/view_control/RTX.jpg")));
+		btnNewButton_1.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/EEPoe.jpg")));
 		btnNewButton_1.setOpaque(false);
 		btnNewButton_1.setContentAreaFilled(false);
 		btnNewButton_1.setBorderPainted(false);
@@ -116,8 +114,7 @@ public class BooksUI extends MainMenu{
 		getContentPane().add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("");
-		btnNewButton_3.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
-		btnNewButton_3.setSelectedIcon(new ImageIcon(BooksUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
+		btnNewButton_3.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/MythOfSisyphus.jpg")));
 		btnNewButton_3.setOpaque(false);
 		btnNewButton_3.setContentAreaFilled(false);
 		btnNewButton_3.setBorderPainted(false);
@@ -127,7 +124,7 @@ public class BooksUI extends MainMenu{
 		JTextPane txtpnRyey = new JTextPane();
 		txtpnRyey.setEditable(false);
 		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike\r\n$19.99");
+		txtpnRyey.setText("Solaris Paperback \u2013 November 20, 2002\r\n$10.99");
 		txtpnRyey.setForeground(new Color(89,183,255));
 		txtpnRyey.setBounds(10, 285, 185, 50);
 		txtpnRyey.setBackground(new Color(45,45,45));
@@ -136,7 +133,7 @@ public class BooksUI extends MainMenu{
 		JTextPane txtpnRyey_1 = new JTextPane();
 		txtpnRyey_1.setEditable(false);
 		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6...\r\n$549.99");
+		txtpnRyey_1.setText("Edgar Allan Poe: Complete Tales and Poems\r\n$14.50");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
@@ -154,7 +151,7 @@ public class BooksUI extends MainMenu{
 		JTextPane txtpnRyey_3 = new JTextPane();
 		txtpnRyey_3.setEditable(false);
 		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in...\r\n$39.99");
+		txtpnRyey_3.setText("The Myth of Sisyphus\r\n$14.99");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
 		txtpnRyey_3.setBounds(595, 285, 185, 50);
@@ -178,7 +175,7 @@ public class BooksUI extends MainMenu{
 		getContentPane().add(btnNewButton_4);
 		
 		JButton btnNewButton_4_1 = new JButton("");
-		btnNewButton_4_1.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Witcher.jpg")));
+		btnNewButton_4_1.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/MazeRunner.jpg")));
 		btnNewButton_4_1.setOpaque(false);
 		btnNewButton_4_1.setContentAreaFilled(false);
 		btnNewButton_4_1.setBorderPainted(false);
@@ -187,7 +184,7 @@ public class BooksUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_1 = new JTextPane();
 		txtpnRyey_4_1.setEditable(false);
-		txtpnRyey_4_1.setText("Witcher 3: Wild Hunt Complete Edition - PlayStation 4...\r\n$79.99");
+		txtpnRyey_4_1.setText("The Maze Runner: Maze Runner, Book 1\r\n$9.99");
 		txtpnRyey_4_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_1.setBackground(new Color(45, 45, 45));
@@ -195,7 +192,7 @@ public class BooksUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_1);
 		
 		JButton btnNewButton_4_2 = new JButton("");
-		btnNewButton_4_2.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/FF_1_55.jpg")));
+		btnNewButton_4_2.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/HistoryOfTime.jpg")));
 		btnNewButton_4_2.setOpaque(false);
 		btnNewButton_4_2.setContentAreaFilled(false);
 		btnNewButton_4_2.setBorderPainted(false);
@@ -204,7 +201,7 @@ public class BooksUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_2 = new JTextPane();
 		txtpnRyey_4_2.setEditable(false);
-		txtpnRyey_4_2.setText("Final Fantasy VII Remake - PlayStation 4 Deluxe Edition\r\n$79.99");
+		txtpnRyey_4_2.setText("The Illustrated Brief History of Time, Updated and Expanded...\r\n$39.99");
 		txtpnRyey_4_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_2.setBackground(new Color(45, 45, 45));
@@ -212,7 +209,7 @@ public class BooksUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_2);
 		
 		JButton btnNewButton_4_3 = new JButton("");
-		btnNewButton_4_3.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/OSU_55.jpg")));
+		btnNewButton_4_3.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/TheOdyssey.jpg")));
 		btnNewButton_4_3.setOpaque(false);
 		btnNewButton_4_3.setContentAreaFilled(false);
 		btnNewButton_4_3.setBorderPainted(false);
@@ -221,7 +218,7 @@ public class BooksUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_3 = new JTextPane();
 		txtpnRyey_4_3.setEditable(false);
-		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet Draw...\r\n$29.99");
+		txtpnRyey_4_3.setText("The Odyssey\r\n$5.95");
 		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
