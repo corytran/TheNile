@@ -97,8 +97,7 @@ public class ElectronicsUI extends MainMenu{
 		getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("");
-		btnNewButton_1.setIcon(new ImageIcon("D:\\Downloads\\RTX.jpg"));
-		btnNewButton_1.setSelectedIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/RTX.jpg")));
+		btnNewButton_1.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/RTX.jpg")));
 		btnNewButton_1.setOpaque(false);
 		btnNewButton_1.setContentAreaFilled(false);
 		btnNewButton_1.setBorderPainted(false);
