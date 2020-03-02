@@ -161,7 +161,7 @@ public class GamesUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4 = new JTextPane();
 		txtpnRyey_4.setEditable(false);
-		txtpnRyey_4.setText("Milkman: A Novel Paperback \u2013 Anna Burns\r\n$7.99");
+		txtpnRyey_4.setText("Rocket League Ultimate Edition - PlayStation 4\r\n$39.99");
 		txtpnRyey_4.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4.setBackground(new Color(45, 45, 45));
@@ -211,7 +211,7 @@ public class GamesUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4_2);
 		
 		JButton btnNewButton_4_3 = new JButton("");
-		btnNewButton_4_3.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/OSU_55.jpg")));
+		btnNewButton_4_3.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/p5_2.jpg")));
 		btnNewButton_4_3.setOpaque(false);
 		btnNewButton_4_3.setContentAreaFilled(false);
 		btnNewButton_4_3.setBorderPainted(false);
@@ -220,7 +220,7 @@ public class GamesUI extends MainMenu{
 		
 		JTextPane txtpnRyey_4_3 = new JTextPane();
 		txtpnRyey_4_3.setEditable(false);
-		txtpnRyey_4_3.setText("XP-Pen StarG640 6x4 Inch OSU! Ultrathin Tablet Draw...\r\n$29.99");
+		txtpnRyey_4_3.setText("Persona 5 Royal: Steelbook Launch Edition - PlayStation 4\r\n$59.99");
 		txtpnRyey_4_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_4_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
 		txtpnRyey_4_3.setBackground(new Color(45, 45, 45));
