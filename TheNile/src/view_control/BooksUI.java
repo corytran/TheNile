@@ -31,11 +31,11 @@ public class BooksUI extends MainMenu{
 		panel.add(btnTodaysDeals);
 		
 		JButton btnGo = new JButton("");
-		btnGo.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Mag_35.PNG")));
+		btnGo.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/MagY.PNG")));
 		btnGo.setOpaque(true);
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
-		btnGo.setBackground(new Color(147,79,1));
+		btnGo.setBackground(new Color(254,189,105));
 		btnGo.setBounds(655, 10, 45, 32);
 		panel.add(btnGo);
 		

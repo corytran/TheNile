@@ -34,11 +34,10 @@ public class CartUI extends MainMenu{
 			public void actionPerformed(ActionEvent e) {
 			}
 		});
-		btnGo.setIcon(new ImageIcon(CartUI.class.getResource("/view_control/Mag_35.PNG")));
-		btnGo.setOpaque(true);
+		btnGo.setIcon(new ImageIcon(CartUI.class.getResource("/view_control/MagY.PNG")));
 		btnGo.setForeground(Color.WHITE);
 		btnGo.setBorderPainted(false);
-		btnGo.setBackground(new Color(147,79,1));
+		btnGo.setBackground(new Color(254,189,105));
 		btnGo.setBounds(655, 10, 45, 32);
 		panel.add(btnGo);
 		
