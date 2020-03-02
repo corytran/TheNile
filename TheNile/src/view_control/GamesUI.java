@@ -89,8 +89,7 @@ public class GamesUI extends MainMenu{
 		panel.add(lblNewLabel);
 		
 		JButton btnNewButton = new JButton("");
-		btnNewButton.setSelectedIcon(new ImageIcon("D:\\Downloads\\Motorbike.jpg"));
-		btnNewButton.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/Motorbike.jpg")));
+		btnNewButton.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/Smash.jpg")));
 		btnNewButton.setBounds(10, 93, 185, 185);
 		btnNewButton.setOpaque(false);
 		btnNewButton.setContentAreaFilled(false);
@@ -98,7 +97,7 @@ public class GamesUI extends MainMenu{
 		getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("");
-		btnNewButton_1.setIcon(new ImageIcon("D:\\Downloads\\RTX.jpg"));
+		btnNewButton_1.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/RTX.jpg")));
 		btnNewButton_1.setSelectedIcon(new ImageIcon(GamesUI.class.getResource("/view_control/RTX.jpg")));
 		btnNewButton_1.setOpaque(false);
 		btnNewButton_1.setContentAreaFilled(false);
