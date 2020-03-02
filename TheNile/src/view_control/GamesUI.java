@@ -97,7 +97,7 @@ public class GamesUI extends MainMenu{
 		getContentPane().add(btnNewButton);
 		
 		JButton btnNewButton_1 = new JButton("");
-		btnNewButton_1.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/RTX.jpg")));
+		btnNewButton_1.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/EU4.jpg")));
 		btnNewButton_1.setSelectedIcon(new ImageIcon(GamesUI.class.getResource("/view_control/RTX.jpg")));
 		btnNewButton_1.setOpaque(false);
 		btnNewButton_1.setContentAreaFilled(false);
@@ -106,7 +106,7 @@ public class GamesUI extends MainMenu{
 		getContentPane().add(btnNewButton_1);
 		
 		JButton btnNewButton_2 = new JButton("");
-		btnNewButton_2.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/Invent.jpg")));
+		btnNewButton_2.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/Stellaris2.jpg")));
 		btnNewButton_2.setSelectedIcon(new ImageIcon(GamesUI.class.getResource("/view_control/Invent.jpg")));
 		btnNewButton_2.setOpaque(false);
 		btnNewButton_2.setContentAreaFilled(false);
@@ -115,7 +115,7 @@ public class GamesUI extends MainMenu{
 		getContentPane().add(btnNewButton_2);
 		
 		JButton btnNewButton_3 = new JButton("");
-		btnNewButton_3.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
+		btnNewButton_3.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/KSP.jpg")));
 		btnNewButton_3.setSelectedIcon(new ImageIcon(GamesUI.class.getResource("/view_control/AmazonRemote_60.jpg")));
 		btnNewButton_3.setOpaque(false);
 		btnNewButton_3.setContentAreaFilled(false);
@@ -126,7 +126,7 @@ public class GamesUI extends MainMenu{
 		JTextPane txtpnRyey = new JTextPane();
 		txtpnRyey.setEditable(false);
 		txtpnRyey.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey.setText("NewRay 1:12 Motorcycle 2006 Kawasaki Zx-10R- Sport Bike\r\n$19.99");
+		txtpnRyey.setText("Super Smash Bros. Ultimate\r\n$59.99");
 		txtpnRyey.setForeground(new Color(89,183,255));
 		txtpnRyey.setBounds(10, 285, 185, 50);
 		txtpnRyey.setBackground(new Color(45,45,45));
@@ -135,7 +135,7 @@ public class GamesUI extends MainMenu{
 		JTextPane txtpnRyey_1 = new JTextPane();
 		txtpnRyey_1.setEditable(false);
 		txtpnRyey_1.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_1.setText("MSI Gaming GeForce RTX 2070 Super 8GB GDRR6...\r\n$549.99");
+		txtpnRyey_1.setText("Europa Universalis IV\r\n$39.99");
 		txtpnRyey_1.setForeground(new Color(89, 183, 255));
 		txtpnRyey_1.setBackground(new Color(45, 45, 45));
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
@@ -144,7 +144,7 @@ public class GamesUI extends MainMenu{
 		JTextPane txtpnRyey_2 = new JTextPane();
 		txtpnRyey_2.setEditable(false);
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_2.setText("How to Invent Everything: Rebuild All of Civilization (with...\r\n$19.99");
+		txtpnRyey_2.setText("Stellaris - Galaxy Edition\r\n$69.99");
 		txtpnRyey_2.setForeground(new Color(89, 183, 255));
 		txtpnRyey_2.setBackground(new Color(45, 45, 45));
 		txtpnRyey_2.setBounds(400, 285, 185, 50);
@@ -153,7 +153,7 @@ public class GamesUI extends MainMenu{
 		JTextPane txtpnRyey_3 = new JTextPane();
 		txtpnRyey_3.setEditable(false);
 		txtpnRyey_3.setFont(new Font("Tahoma", Font.PLAIN, 12));
-		txtpnRyey_3.setText("Fire TV Stick streaming media player with Alexa built in...\r\n$39.99");
+		txtpnRyey_3.setText("Kerbal Space Program\r\n$39.99");
 		txtpnRyey_3.setForeground(new Color(89, 183, 255));
 		txtpnRyey_3.setBackground(new Color(45, 45, 45));
 		txtpnRyey_3.setBounds(595, 285, 185, 50);
@@ -169,7 +169,7 @@ public class GamesUI extends MainMenu{
 		getContentPane().add(txtpnRyey_4);
 		
 		JButton btnNewButton_4 = new JButton("");
-		btnNewButton_4.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/Milkman.jpg")));
+		btnNewButton_4.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/RLeague2.jpg")));
 		btnNewButton_4.setOpaque(false);
 		btnNewButton_4.setContentAreaFilled(false);
 		btnNewButton_4.setBorderPainted(false);
