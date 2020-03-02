@@ -11,7 +11,7 @@ import java.util.*;
 public class AmazonGUI extends MainMenu{
 	public AmazonGUI() {
 		setBounds(100, 100, 800, 660);
-		getContentPane().setBackground(new Color(45,45,45));
+		getContentPane().setBackground(Color.WHITE);
 		getContentPane().setLayout(null);
 		
 		Panel panel = new Panel();
@@ -47,8 +47,8 @@ public class AmazonGUI extends MainMenu{
 		panel.add(textField);
 		textField.setText("");
 		textField.setFont(new Font("SansSerif", Font.PLAIN, 18));
-		textField.setForeground(new Color(255, 255, 255));
-		textField.setBackground(new Color(24, 26, 27));
+		textField.setForeground(Color.BLACK);
+		textField.setBackground(Color.WHITE);
 		
 		JButton btnBooks = new JButton("Books\r\n");
 		btnBooks.setFont(new Font("Tahoma", Font.PLAIN, 13));
