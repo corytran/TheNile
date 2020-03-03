@@ -1,5 +1,7 @@
 package view_control;
 import control_ap_exam.APexam;
+import model.model;
+
 import java.awt.*;
 import java.awt.color.*;
 import javax.swing.*;
@@ -21,6 +23,12 @@ public class AmazonGUI extends MainMenu{
 		panel.setLayout(null);
 		
 		JButton btnTodaysDeals = new JButton("Today's Deals");
+		btnTodaysDeals.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Deals();
+				dispose();
+			}
+		});
 		btnTodaysDeals.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnTodaysDeals.setOpaque(true);
 		btnTodaysDeals.setForeground(Color.WHITE);
@@ -31,7 +39,9 @@ public class AmazonGUI extends MainMenu{
 		
 		JButton btnGo = new JButton("");
 		btnGo.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
+			public void actionPerformed(ActionEvent e) 
+			{
+				
 			}
 		});
 		btnGo.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/MagY.PNG")));
