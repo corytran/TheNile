@@ -61,6 +61,12 @@ public class AmazonGUI extends MainMenu{
 		textField.setBackground(Color.WHITE);
 		
 		JButton btnBooks = new JButton("Books\r\n");
+		btnBooks.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Books();
+				dispose();
+			}
+		});
 		btnBooks.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnBooks.setOpaque(true);
 		btnBooks.setForeground(Color.WHITE);
@@ -97,10 +103,18 @@ public class AmazonGUI extends MainMenu{
 		button_3.setBounds(710, 10, 64, 32);
 		panel.add(button_3);
 		
-		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/NileLogo_35.png")));
-		lblNewLabel.setBounds(0, 1, 76, 51);
-		panel.add(lblNewLabel);
+		JButton btnNewButton_3 = new JButton("");
+		btnNewButton_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) 
+			{
+				
+			}
+		});
+		btnNewButton_3.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/NileLogo_35.png")));
+		btnNewButton_3.setBounds(0, 1, 76, 51);
+		btnNewButton_3.setBorderPainted(false);
+		btnNewButton_3.setContentAreaFilled(true);
+		panel.add(btnNewButton_3);
 		
 		JButton btnNewButton = new JButton("New button");
 		btnNewButton.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/RyzenBig_68.jpg")));
