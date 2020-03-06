@@ -117,10 +117,19 @@ public class CartUI extends MainMenu{
 		button_3.setBounds(710, 10, 64, 32);
 		panel.add(button_3);
 		
-		JLabel lblNewLabel = new JLabel("New label");
-		lblNewLabel.setIcon(new ImageIcon(CartUI.class.getResource("/view_control/NileLogo_35.png")));
-		lblNewLabel.setBounds(0, 1, 76, 51);
-		panel.add(lblNewLabel);
+		JButton nile = new JButton("");
+		nile.setOpaque(false);
+		nile.setContentAreaFilled(false);
+		nile.setBorderPainted(false);
+		nile.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Amazon();
+				dispose();
+			}
+		});
+		nile.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/NileLogo_35.png")));
+		nile.setBounds(0, 1, 76, 51);
+		panel.add(nile);
 		
 		JTextPane txtpnShoppingCart = new JTextPane();
 		txtpnShoppingCart.setFont(new Font("Tahoma", Font.PLAIN, 24));

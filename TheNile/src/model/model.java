@@ -39,6 +39,10 @@ public static void Games() {
 	GamesUI frame = new GamesUI();
 	frame.setVisible(true);
 	}
+public static void Amazon() {
+	AmazonGUI frame = new AmazonGUI();
+	frame.setVisible(true);
+	}
 }
 
 
