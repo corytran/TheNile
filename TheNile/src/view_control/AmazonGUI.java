@@ -76,6 +76,12 @@ public class AmazonGUI extends MainMenu{
 		panel.add(btnBooks);
 		
 		JButton btnGames = new JButton("Games\r\n");
+		btnGames.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Games();
+				dispose();
+			}
+		});
 		btnGames.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnGames.setOpaque(true);
 		btnGames.setForeground(Color.WHITE);
@@ -85,6 +91,12 @@ public class AmazonGUI extends MainMenu{
 		panel.add(btnGames);
 		
 		JButton btnComputers = new JButton("Electronics");
+		btnComputers.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Electronics();
+				dispose();
+			}
+		});
 		btnComputers.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnComputers.setOpaque(true);
 		btnComputers.setForeground(Color.WHITE);
@@ -94,6 +106,12 @@ public class AmazonGUI extends MainMenu{
 		panel.add(btnComputers);
 		
 		JButton button_3 = new JButton("Cart");
+		button_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Cart();
+				dispose();
+			}
+		});
 		button_3.setIcon(new ImageIcon(AmazonGUI.class.getResource("/view_control/CartIcon_35.png")));
 		button_3.setForeground(Color.WHITE);
 		button_3.setOpaque(true);
