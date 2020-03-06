@@ -1,5 +1,6 @@
 package view_control;
 import control_ap_exam.APexam;
+import model.SCmodel;
 import model.model;
 
 import java.awt.*;
@@ -142,6 +143,7 @@ public class CartUI extends MainMenu{
 		list.setBackground(Color.PINK);
 		list.setBounds(20, 145, 540, 345);
 		getContentPane().add(list);
+		
 		
 		JList list_1 = new JList();
 		list_1.setBackground(Color.GREEN);

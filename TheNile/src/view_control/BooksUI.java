@@ -1,5 +1,6 @@
 package view_control;
 import control_ap_exam.APexam;
+import model.SCmodel;
 import model.model;
 
 import java.awt.*;
@@ -115,21 +116,20 @@ public class BooksUI extends MainMenu{
 		button_3.setBounds(710, 10, 64, 32);
 		panel.add(button_3);
 		
-		JButton nile = new JButton("");
-		nile.setOpaque(false);
-		nile.setContentAreaFilled(false);
-		nile.setBorderPainted(false);
-		nile.addActionListener(new ActionListener() {
-			public void actionPerformed(ActionEvent e) {
-				model.Amazon();
-				dispose();
-			}
-		});
-		nile.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/NileLogo_35.png")));
-		nile.setBounds(0, 1, 76, 51);
-		panel.add(nile);
+		JLabel lblNewLabel = new JLabel("New label");
+		lblNewLabel.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/NileLogo_35.png")));
+		lblNewLabel.setBounds(0, 1, 76, 51);
+		panel.add(lblNewLabel);
+		
+		DefaultListModel Books = new DefaultListModel();
 		
 		JButton btnNewButton = new JButton("");
+		btnNewButton.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				//Books.addElement("Solaris Paperback 2013 November 20, 2002 $10.99");
+				//list.setModel(Books);
+			}
+		});
 		btnNewButton.setIcon(new ImageIcon(BooksUI.class.getResource("/view_control/Solaris.jpg")));
 		btnNewButton.setBounds(10, 93, 185, 185);
 		btnNewButton.setOpaque(false);
@@ -179,7 +179,7 @@ public class BooksUI extends MainMenu{
 		txtpnRyey_1.setBackground(Color.WHITE);
 		txtpnRyey_1.setBounds(205, 285, 185, 50);
 		getContentPane().add(txtpnRyey_1);
-		
+	
 		JTextPane txtpnRyey_2 = new JTextPane();
 		txtpnRyey_2.setEditable(false);
 		txtpnRyey_2.setFont(new Font("Tahoma", Font.PLAIN, 12));
