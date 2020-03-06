@@ -1,5 +1,7 @@
 package view_control;
 import control_ap_exam.APexam;
+import model.model;
+
 import java.awt.*;
 import java.awt.color.*;
 import javax.swing.*;
@@ -22,6 +24,12 @@ public class TodaysDealsUI extends MainMenu{
 		panel.setLayout(null);
 		
 		JButton btnTodaysDeals = new JButton("Today's Deals");
+		btnTodaysDeals.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Deals();
+				dispose();
+			}
+		});
 		btnTodaysDeals.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnTodaysDeals.setOpaque(true);
 		btnTodaysDeals.setForeground(Color.WHITE);
@@ -48,6 +56,12 @@ public class TodaysDealsUI extends MainMenu{
 		textField.setBackground(Color.WHITE);
 		
 		JButton btnBooks = new JButton("Books\r\n");
+		btnBooks.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Books();
+				dispose();
+			}
+		});
 		btnBooks.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnBooks.setOpaque(true);
 		btnBooks.setForeground(Color.WHITE);
@@ -57,6 +71,12 @@ public class TodaysDealsUI extends MainMenu{
 		panel.add(btnBooks);
 		
 		JButton btnGames = new JButton("Games\r\n");
+		btnGames.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Games();
+				dispose();
+			}
+		});
 		btnGames.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnGames.setOpaque(true);
 		btnGames.setForeground(Color.WHITE);
@@ -66,6 +86,12 @@ public class TodaysDealsUI extends MainMenu{
 		panel.add(btnGames);
 		
 		JButton btnComputers = new JButton("Electronics");
+		btnComputers.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Electronics();
+				dispose();
+			}
+		});
 		btnComputers.setFont(new Font("Tahoma", Font.PLAIN, 13));
 		btnComputers.setOpaque(true);
 		btnComputers.setForeground(Color.WHITE);
@@ -75,6 +101,12 @@ public class TodaysDealsUI extends MainMenu{
 		panel.add(btnComputers);
 		
 		JButton button_3 = new JButton("Cart");
+		button_3.addActionListener(new ActionListener() {
+			public void actionPerformed(ActionEvent e) {
+				model.Cart();
+				dispose();
+			}
+		});
 		button_3.setIcon(new ImageIcon(TodaysDealsUI.class.getResource("/view_control/CartIcon_35.png")));
 		button_3.setForeground(Color.WHITE);
 		button_3.setOpaque(false);
