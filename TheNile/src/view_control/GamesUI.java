@@ -102,7 +102,7 @@ public class GamesUI extends MainMenu{
 		button_3.setBorderPainted(false);
 		button_3.setBounds(710, 10, 64, 32);
 		panel.add(button_3);
-		//
+		
 		JLabel lblNewLabel = new JLabel("New label");
 		lblNewLabel.setIcon(new ImageIcon(GamesUI.class.getResource("/view_control/NileLogo_35.png")));
 		lblNewLabel.setBounds(0, 1, 76, 51);

@@ -93,7 +93,7 @@ public class ElectronicsUI extends MainMenu{
 		JButton button_3 = new JButton("Cart");
 		button_3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
-			}//
+			}
 		});
 		button_3.setIcon(new ImageIcon(ElectronicsUI.class.getResource("/view_control/CartIcon_35.png")));
 		button_3.setForeground(Color.WHITE);
